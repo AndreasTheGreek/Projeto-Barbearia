@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="stylesheet"
+  href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia Império - Serviços</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .category {
+      background-color: #111;
+      padding: 30px;
+      border-radius: 10px;
+      width: 300px;
+    }
+
+    .category h3 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 10px;
+    }
+
+    .service {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+      font-size: 1rem;
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .services-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Barbearia Império</h1>
+    <nav>
+      <a href="#">Sobre Nós</a>
+      <a href="#">Contato</a>
+      <a href="#">Endereço</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Serviços</h2>
+    <div class="services-container">
+      <div class="category">
+        <h3>Cortes</h3>
+        <div class="service"><span>Corte Degradê</span><span>R$35</span></div>
+        <div class="service"><span>Corte Degradê Navalhado</span><span>R$40</span></div>
+        <div class="service"><span>Corte na Tesoura</span><span>R$40</span></div>
+        <div class="service"><span>Corte Social</span><span>R$40</span></div>
+      </div>
+      <div class="category">
+        <h3>Rosto e Cuidados</h3>
+        <div class="service"><span>Barba</span><span>R$35</span></div>
+        <div class="service"><span>Sobrancelha na Pinça</span><span>R$30</span></div>
+        <div class="service"><span>Limpeza da sobrancelha</span><span>R$15</span></div>
+        <div class="service"><span>Selagem</span><span>R$70 (pix)</span></div>
+        <div class="service"><span>Selagem</span><span>R$75 (cartão)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Rua José Firmino Ferreira 511, sala 06, João Pessoa - PB<br>
+    Atendimento: Seg a Sex - 08h às 21h | Sáb - 08h às 18h<br>
+    Contato: (83) 9 8782-7177
+  </footer>
+
+</body>
+</html>

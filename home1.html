@@ -7,126 +7,130 @@
     <link rel="stylesheet" href="Assents/style1.css">
 </head>
 <body>
-    <div id="fundo1">
-        <img id="imagemhome1" src="Assents/imagemhome1.jpg" alt="imagemhome1">
-        <header class="menu">
-            <img id="imagemlogo" src="Assents/logo1.png" alt="logo1">
-            <nav class="menuprincipal">
-                <a href="#sobrenos"><b>SOBRE NÓS</b></a>
-                <a href="/"><b>SERVIÇOS</b></a>
-                <a href="#imagemhome2"><b>AGENDAMENTO</b></a>
-                <a href="#imagemhome3"><b>LOCALIZAÇÃO</b></a>
-            </nav>
-        </header>
-        <section class="textofoto">
-            <div>
-                <img id="imagemfoto" src="Assents/imagemfoto.png" alt="imagemfoto">
-            </div>
-            <div class="textos">
-                <h1 id="sobrenos">SOBRE NÓS</h1>
-                <P id="texto1">Nossa equipe de barbeiros altamente qualificados está pronta para oferecer um atendimento personalizado, entendendo suas preferências e realçando o melhor do seu visual - seja no corte de cabelo, na barba ou no bigode. Mais do que um serviço, proporcionamos uma experiência única, onde você pode relaxar, cuidar de si mesmo e se sentir em casa. 
-                Venha para a Barbearia Império e descubra o prazer de um atendimento VIP, com produtos de qualidade e um ambiente pensado para você. Aqui, seu estilo é o nosso império! (texto exemplo)</P>
-            </div>
-        </section>
-        </div>
-        <div id="fundo2">
-            <img id="imagemhome2" src="Assents/imagemhome2.jpg" alt="imagemhome2">
-            <section class="pagina2">
-                <div class="form">
-                    <h3>FORMULÁRIO DE AGENDAMENTO</h3>
-                    <form method="get" action="home3.html">
-                        <div>
-                            <label for="data1"><b>Nome:</b></label>
-                            <input type="text" name="nome" required>
-                        </div>
-                        <br>
-                        <div>
-                            <label for="data2"><b>Telefone:</b></label>
-                            <input type="tel" name="telefone" placeholder="83912345678" pattern="[0-9]{11}" required>
-                            <small>Exemplo: 83912345678</small>
-                        </div>
-                        <br>
-                        <div>
-                            <label for="data3"><b>Dia da Semana:</b></label>
-                            <select name="dia" required>
-                                <option value="segunda">Segunda-feira</option>
-                                <option value="terca">Terça-feira</option>
-                                <option value="quarta">Quarta-feira</option>
-                                <option value="quinta">Quinta-feira</option>
-                                <option value="sexta">Sexta-feira</option>
-                                <option value="sabado">Sábado</option>
-                            </select>
-                        </div>
-                        <br>
-                        <div>
-                            <label for="data4"><b>Horário:</b></label>
-                            <select name="horario" required>
-                                <option value="am1">08h - 09h</option>
-                                <option value="am2">09h - 10h</option>
-                                <option value="am3">10h - 11h</option>
-                                <option value="am4">11h - 12h</option>
-                                <option value="pm1">13h - 14h</option>
-                                <option value="pm2">14h - 15h</option>
-                                <option value="pm3">15h - 16h</option>
-                                <option value="pm4">16h - 17h</option>
-                            </select>
-                        </div>
-                        <br>
-                        <div>
-                            <input type="submit" name="enviar">
-                        </div>
-                    </form>
+    <header id="1">
+        <div class="home1">
+            <div class="barra-menu">
+                <div class="logo">
+                    <a href="#1"><img src="Assents/logo1.png" alt="logo1"></a>
                 </div>
-                <div class="textosocial">
-                    <h2>Conecte-se com a gente!</h2>
-                    <p>Quer ficar por dentro das novidades, promoções exclusivas e ver nossos cortes incríveis? Siga nossas redes sociais e acompanhe tudo de perto! Estamos esperando por você para transformar seu visual e compartilhar dicas especiais.</p>
-                    <nav>
-                        <a href="https://www.instagram.com/barbeariaiimperio/" target="_blank"><img id="insta" src="Assents/insta.png" alt="insta"></a>
-                        <a href="https://api.whatsapp.com/send/?phone=5583987827177&text&type=phone_number&app_absent=0" target="_blank"><img id="zap" src="Assents/zapzap.png" alt="zapzap"></a>
-                    </nav>
+                <nav class="menu">
+                    <ul>
+                        <li><a class="menu-itens" href="#2"><strong>SOBRE NÓS</strong></a></li>
+                        <li><a class="menu-itens" href="index.html"><strong>SERVIÇOS</strong></a></li>
+                        <li><a class="menu-itens" href="#3"><strong>AGENDAMENTO</strong></a></li>
+                        <li><a class="menu-itens" href="#4"><strong>LOCALIZAÇÃO</strong></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="2" class="sobrenos">
+                <div class="img-sobrenos">
+                    <img src="Assents/imagemfoto.png" alt="imagemfoto">
                 </div>
-            </section>
+                <div class="texto-sobrenos">
+                    <h2>SOBRE NÓS</h2>
+                    <p>Nossa equipe de barbeiros altamente qualificados está pronta para oferecer um atendimento personalizado, entendendo suas preferências e realçando o melhor do seu visual - seja no corte de cabelo, na barba ou no bigode. Mais do que um serviço, proporcionamos uma experiência única, onde você pode relaxar, cuidar de si mesmo e se sentir em casa.
+                    Venha para a Barbearia Império e descubra o prazer de um atendimento VIP, com produtos de qualidade e um ambiente pensado para você. Aqui, seu estilo é o nosso império!</p>
+                </div>
+            </div>
         </div>
-        <div class="fundo3">
-            <img id="imagemhome3" src="Assents/imagemhome3.jpg" alt="imagemhome3">
-            <section class="pagina3">
-                <div class="informacao">
-                    <div id="textologo">
-                        <p>Localização</p>
-                        <img src="Assents/iconelocalizacao2.png" alt="iconelocalizacao2">
+    </header>
+    <section id="3" class="home2">
+        <div class="conteudo-home2">
+            <div class="formulario">
+                <p>Formulário de Agendamento</p>
+                <form method="get" action="home3.html">
+                    <div>
+                        <label for="data1"><b>Nome:</b></label>
+                        <input type="text" name="nome" required>
                     </div>
                     <br>
-                    <p id="endereco">
+                    <div>
+                        <label for="data2"><b>Telefone:</b></label>
+                        <input type="tel" name="telefone" placeholder="83912345678" pattern="[0-9]{11}" required>
+                        <small>Exemplo: 83912345678</small>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="data3"><b>Dia da Semana:</b></label>
+                        <select name="dia" required>
+                            <option value="segunda">Segunda-feira</option>
+                            <option value="terca">Terça-feira</option>
+                            <option value="quarta">Quarta-feira</option>
+                            <option value="quinta">Quinta-feira</option>
+                            <option value="sexta">Sexta-feira</option>
+                            <option value="sabado">Sábado</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="data4"><b>Horário:</b></label>
+                        <select name="horario" required>
+                            <option value="am1">08h - 09h</option>
+                            <option value="am2">09h - 10h</option>
+                            <option value="am3">10h - 11h</option>
+                            <option value="am4">11h - 12h</option>
+                            <option value="pm1">13h - 14h</option>
+                            <option value="pm2">14h - 15h</option>
+                            <option value="pm3">15h - 16h</option>
+                            <option value="pm4">16h - 17h</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" name="enviar">
+                    </div>
+                </form>
+            </div>
+            <div class="texto-social">
+                <h2>Conecte-se com a gente!</h2>
+                <p>Quer ficar por dentro das novidades, promoções exclusivas e ver nossos cortes incríveis? Siga nossas redes sociais e acompanhe tudo de perto! Estamos esperando por você para transformar seu visual e compartilhar dicas especiais.</p>
+                <nav>
+                    <a id="insta" href="https://www.instagram.com/barbeariaiimperio/" target="_blank"><img id="insta" src="Assents/insta.png" alt="insta"></a>
+                    <a id="zapzap" href="https://api.whatsapp.com/send/?phone=5583987827177&text&type=phone_number&app_absent=0" target="_blank"><img id="zap" src="Assents/zapzap.png" alt="zapzap"></a>
+                </nav>
+            </div>
+        </div>        
+    </section>
+    <section id="4" class="home3">
+        <div class="conteudo-home3">
+            <div class="informacao">
+                <div class="texto-logo">
+                    <p>LOCALIZAÇÃO</p>
+                    <img src="Assents/iconelocalizacao2.png" alt="iconelocalizacao2">                    
+                </div>
+                <div class="endereco">
+                    <p>
                         R. José Firmino Ferreira, 511 - Sala 06 - Jardim São Paulo - João Pessoa - PB, 58053-022
-                    </p>                  
+                    </p> 
                 </div>
-                <div id="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1176.9540236039725!2d-34.85126786297736!3d-7.150762400593888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc2900c98635d%3A0xcd702cf47432eea!2sR.%20Jos%C3%A9%20Firmino%20Ferreira%2C%20511%20-%20Sala%2006%20-%20Jardim%20Sao%20Paulo%2C%20Jo%C3%A3o%20Pessoa%20-%20PB%2C%2058053-031!5e0!3m2!1spt-BR!2sbr!4v1747533257579!5m2!1spt-BR!2sbr" width="800" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
+            </div>
+            <div class="mapa">
+                <iframe class="display-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1176.9540236039725!2d-34.85126786297736!3d-7.150762400593888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc2900c98635d%3A0xcd702cf47432eea!2sR.%20Jos%C3%A9%20Firmino%20Ferreira%2C%20511%20-%20Sala%2006%20-%20Jardim%20Sao%20Paulo%2C%20Jo%C3%A3o%20Pessoa%20-%20PB%2C%2058053-031!5e0!3m2!1spt-BR!2sbr!4v1747533257579!5m2!1spt-BR!2sbr" width="800" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
-        <footer class="rodape1">
-            <div id="r1">
-                <img src="Assents/logo.png" alt="logo">
+    </section>
+    <footer class="rodape">
+        <div class="rodape-logo">
+            <img src="Assents/logo.png" alt="logo">
+        </div>
+        <div class="rodape-info">
+            <div class="endereco-rodape">
+                <img src="Assents/iconelocalizacao1.png" alt="iconelocalizacao1">
+                <p id="titulor1">ENDEREÇO</p>
+                <P id="textor1">Rua José Firmino Ferreira, 511 - Sala 06 - João Pessoa, PB - 58053-022</P>      
             </div>
-            <div class="rodape2">
-                <div id="r2">
-                    <img src="Assents/iconelocalizacao1.png" alt="iconelocalizacao1">
-                    <p id="titulor1">ENDEREÇO</p>
-                    <P id="textor1">Rua José Firmino Ferreira, 511 - Sala 06 - João Pessoa, PB - 58053-022</P>
-                </div>
-                <div id="r3">
-                    <img src="Assents/iconerelogio.png" alt="iconerelogio">
-                    <p id="titulor2">ATENDIMENTO</p>
-                    <p id="textor2">Segunda a Sexta - 8h às 17h</p>
-                    <p id="textor3">Sábados - 8h às 12h</p>
-                </div>
-                <div id="r4">
-                    <img src="Assents/iconetelefone.png" alt="iconetelefone">
-                    <p id="titulor3">CONTATO</p>
-                    <p id="textor4">(83) 9 8782-7177</p>
-                </div>
+            <div class="atendimento-rodape">
+                <img src="Assents/iconerelogio.png" alt="iconerelogio">
+                <p id="titulor2">ATENDIMENTO</p>
+                <p id="textor2">Segunda a Sexta - 8h às 17h</p>
+                <p id="textor3">Sábados - 8h às 12h</p>
             </div>
-        </footer>
+            <div class="contato-rodape">
+                <img src="Assents/iconetelefone.png" alt="iconetelefone">
+                <p id="titulor3">CONTATO</p>
+                <p id="textor4">(83) 9 8782-7177</p>
+            </div>
+         </div>
+    </footer>
 </body>
 </html>
